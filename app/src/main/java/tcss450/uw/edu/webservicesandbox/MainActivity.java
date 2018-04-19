@@ -322,6 +322,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onCancelled() {
             super.onCancelled();
+            mProgressBar.setVisibility(ProgressBar.GONE);
             finish("Canceled");
         }
         private void finish(final String message) {

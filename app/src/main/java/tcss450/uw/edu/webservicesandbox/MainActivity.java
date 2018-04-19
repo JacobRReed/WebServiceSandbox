@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mTextView = findViewById(R.id.textView);
         mProgressBar = findViewById(R.id.progressBar);
+        mProgressBar.setVisibility(ProgressBar.GONE);
         mButton = findViewById(R.id.buttonHelloStatus);
         findViewById(R.id.buttonHelloActions).setOnClickListener(this::handleHelloActionsButton);
     }

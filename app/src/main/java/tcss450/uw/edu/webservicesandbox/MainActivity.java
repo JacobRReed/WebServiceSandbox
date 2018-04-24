@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 //Build the URL inside of the AsyncTask
                 task = new PostWebServiceTask();
                 task.execute(getString(R.string.ep_base_url),
-                        getString(R.string.ep_hello_args),
+                        getString(R.string.ep_sql),
                         message);
                 break;
             case R.id.buttonHelloStatus:
